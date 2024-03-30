@@ -1,6 +1,8 @@
+import NavHead from "./NavHead";
 function StartBootstrapTemplate() {
   return (
     <>
+      <NavHead />
       {/* Masthead*/}
       <header className="masthead bg-primary text-white text-center">
         <div className="container d-flex align-items-center flex-column">
