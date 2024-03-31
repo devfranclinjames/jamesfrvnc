@@ -1,9 +1,13 @@
-import MysrcLogo from "../assets/imgs/dfhtml.png";
-
-function MyLogo() {
+interface LogoProps {
+  imgsrc: string;
+  taas: number;
+  lapad: any;
+  unsani: string;
+}
+function MyLogo({ taas, lapad, imgsrc, unsani }: LogoProps) {
   return (
     <>
-      <img src={MysrcLogo} alt="devFranc Logo" height="40" />
+      <img src={imgsrc} alt={unsani} width={lapad} height={taas} />
     </>
   );
 }

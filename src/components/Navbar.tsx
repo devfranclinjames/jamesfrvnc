@@ -1,5 +1,12 @@
 import Navlinks from "./Navlinks";
 import MyLogo from "./MyLogo";
+import MysrcLogo from "../assets/imgs/dfhtml.png";
+
+const imgObj = {
+  height: 50,
+  width: "auto",
+  alt: MysrcLogo,
+};
 
 function Navbar() {
   return (
@@ -8,7 +15,12 @@ function Navbar() {
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              <MyLogo></MyLogo>
+              <MyLogo
+                imgsrc={MysrcLogo}
+                taas={imgObj.height}
+                lapad={imgObj.width}
+                unsani={imgObj.alt}
+              />
             </a>
             <button
               className="navbar-toggler"
