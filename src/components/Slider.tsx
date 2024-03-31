@@ -8,14 +8,14 @@ export default function Slider() {
       <div
         id="carouselExampleCaptions"
         className="carousel slide"
-        data-bs-ride="carousel-dark"
+        data-bs-ride="carousel"
       >
         <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
-            className="active"
+            className="active bg-info-subtle"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -24,29 +24,31 @@ export default function Slider() {
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="1"
             aria-label="Slide 2"
+            className="bg-info-subtle"
           ></button>
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="2"
             aria-label="Slide 3"
+            className="bg-info-subtle"
           ></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={Pexbg1} className="d-block w-100" alt="..." />
+            <img src={Pexbg1} className="d-block w-100 opaek" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
+              <h5 className="text-body">First slide label</h5>
+              <p className="text-body">
                 Some representative placeholder content for the first slide.
               </p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={Pexbg2} className="d-block w-100" alt="..." />
+            <img src={Pexbg2} className="d-block w-100 opaek" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
+              <h5 className="text-body">Second slide label</h5>
+              <p className="text-body">
                 Some representative placeholder content for the second slide.
               </p>
             </div>
@@ -54,12 +56,12 @@ export default function Slider() {
           <div className="carousel-item">
             <img
               src={Pexbg3}
-              className="d-block w-100 bg-gradient-dark"
+              className="d-block w-100 bg-gradient-dark opaek"
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
+              <h5 className="text-body">Third slide label</h5>
+              <p className="text-body">
                 Some representative placeholder content for the third slide.
               </p>
             </div>
@@ -74,6 +76,7 @@ export default function Slider() {
           <span
             className="carousel-control-prev-icon"
             aria-hidden="true"
+            data-bs-theme="light"
           ></span>
           <span className="visually-hidden">Previous</span>
         </button>

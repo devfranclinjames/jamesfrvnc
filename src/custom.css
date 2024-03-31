@@ -1,8 +1,9 @@
 .opaek{
-    background-color: black;
-    opacity: .3;
-    height: 100%;
-    width: 100vw;
-    position: absolute;
+    filter:brightness(0.5);
 }
-      
+.height-400{
+    height:400px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    filter: invert(0)!important;
+}
