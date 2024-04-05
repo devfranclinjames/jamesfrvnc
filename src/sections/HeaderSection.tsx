@@ -12,6 +12,7 @@ export default function HeaderSection() {
   return (
     <>
       <Navbar></Navbar>
+      <div className=" bg-body-tertiary"></div>
       <div className="position-relative text-info-emphasis">
         <div className="position-relative text-center">
           <HeaderContents

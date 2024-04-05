@@ -8,19 +8,13 @@ export default function FooterSection() {
         <div className="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
           <div className="row">
             <div className="col-lg-3 mb-3">
-              <a
-                className="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none"
-                href="/"
-                aria-label="Bootstrap"
-              >
-                <MyLogo
-                  imgsrc={MysrcLogosrc}
-                  klass={"logofooter"}
-                  taas={40}
-                  lapad={"auto"}
-                  unsani="footerlogo"
-                />
-              </a>
+              <MyLogo
+                imgsrc={MysrcLogosrc}
+                klass={"logofooter"}
+                taas={40}
+                lapad={"auto"}
+                unsani="footerlogo"
+              />
               <ul className="list-unstyled small">
                 <li className="mb-2">
                   Designed and built with all the love in the world by the{" "}
@@ -206,6 +200,13 @@ export default function FooterSection() {
                   </a>
                 </li>
               </ul>
+            </div>
+            <div className="container">
+              <h6 className="display-6">Contact</h6>
+              <p>
+                Feel free to reach out to me via email at [your email address]
+                or connect with me on [LinkedIn, GitHub, etc.].
+              </p>
             </div>
           </div>
         </div>

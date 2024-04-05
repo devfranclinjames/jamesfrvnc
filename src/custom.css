@@ -8,7 +8,9 @@
     filter: invert(0)!important;
 }
 
-
+.carousel{
+    filter: drop-shadow(2px 4px 6px black);
+}
 
 
 

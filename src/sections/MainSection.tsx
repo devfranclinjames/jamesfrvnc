@@ -1,9 +1,9 @@
-import HomePage from "../components/HomePage";
-
+import Portfolio from "../components/PortfolioContent";
 export default function MainSection() {
   return (
     <>
-      <HomePage></HomePage>
+      <Portfolio></Portfolio>
+      {/* <HomePage></HomePage> */}
     </>
   );
 }
