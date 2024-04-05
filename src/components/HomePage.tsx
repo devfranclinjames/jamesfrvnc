@@ -1,11 +1,11 @@
 const HomePage = () => {
   return (
-    <div className="container px-5 py-5">
-      <header className="px-5 py-5">
-        <h1 className="display-1">
-          Welcome to [Your Name]'s Full Stack Web Development Services
+    <div className="container py-5">
+      <header className="py-5">
+        <h1 className="display-5">
+          Welcome to devFranc's Full Stack Web Development Services
         </h1>
-        <p>Transforming your digital vision into reality</p>
+        <h3>Transforming your digital vision into reality!</h3>
       </header>
       <section>
         <h2>Services Offered</h2>
@@ -20,7 +20,7 @@ const HomePage = () => {
         </ul>
       </section>
       <section>
-        <h2>Why Choose [Your Name]?</h2>
+        <h2>Why Choose my Expertise</h2>
         <ul>
           <li>Expertise & Experience</li>
           <li>Custom Solutions Tailored to You</li>
