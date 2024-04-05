@@ -9,3 +9,9 @@
 //         return;
 //     }
 // },10);
+$(document).ready(function(){
+    $('.parallax-bg').css('top', -(window.pageYOffset / 4) + 'px');
+    $(window).scroll(function() {
+        $('.parallax-bg').css('top', -(window.pageYOffset / 4) + 'px');
+    });
+});

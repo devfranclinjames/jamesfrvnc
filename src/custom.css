@@ -7,3 +7,86 @@
 .carousel-control-next-icon, .carousel-control-prev-icon{
     filter: invert(0)!important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PARALLAX EFFECT */
+
+
+.parallax-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/imgs/map.jpg");
+    filter: brightness(0.2);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    text-align: center;
+    color: #fff;
+}
+
+.carousel {
+    margin-top: -50px; /* Adjust as needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #376e70; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1db695; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00ffff; 
+  }
