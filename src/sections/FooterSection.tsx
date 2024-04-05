@@ -20,7 +20,6 @@ export default function FooterSection() {
                   lapad={"auto"}
                   unsani="footerlogo"
                 />
-                <span className="fs-5">Bootstrap</span>
               </a>
               <ul className="list-unstyled small">
                 <li className="mb-2">
