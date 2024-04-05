@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar";
 import Slider from "../components/Slider";
-import MainContent from "../components/MainContent";
 import MysrcLogo2 from "../assets/imgs/teallogodevfranc.png";
 import MyLogo from "../components/MyLogo";
 import HeaderContents from "../components/HeaderContents";
@@ -38,7 +37,6 @@ export default function HeaderSection() {
         </div>
       </div>
       <Slider></Slider>
-      <MainContent></MainContent>
     </>
   );
 }
