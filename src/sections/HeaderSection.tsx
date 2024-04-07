@@ -11,20 +11,22 @@ const webObj = {
 export default function HeaderSection() {
   return (
     <>
-      <Navbar></Navbar>
-      <div className=" bg-body-tertiary"></div>
-      <div className="position-relative text-info-emphasis">
-        <div className="position-relative text-center">
-          <HeaderContents
-            heading={webObj.heading}
-            phone={webObj.phone}
-            email={webObj.email}
-          />
+      <header>
+        <Navbar />
+        <div className=" bg-body-tertiary"></div>
+        <div className="position-relative text-info-emphasis">
+          <div className="position-relative text-center">
+            <HeaderContents
+              heading={webObj.heading}
+              phone={webObj.phone}
+              email={webObj.email}
+            />
+          </div>
         </div>
-      </div>
-      <div className="container">
-        <Slider></Slider>
-      </div>
+        <div className="container">
+          <Slider></Slider>
+        </div>
+      </header>
     </>
   );
 }
