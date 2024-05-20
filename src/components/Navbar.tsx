@@ -3,6 +3,7 @@ import MyLogo from "./MyLogo";
 import MysrcLogo from "../assets/imgs/dfhtml.png";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import App from "../App";
+import VideosResults from "./VideosResults";
 
 const imgObj = {
   height: 50,
@@ -26,6 +27,7 @@ function Navbar() {
                 unsani={imgObj.alt}
               />
             </Link>
+            <Link to="/results">Videos from ResultsCX</Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -58,6 +60,7 @@ function Navbar() {
         </nav>
         <Routes>
           <Route path="/" element={<App />} />
+          <Route path="/results" element={<VideosResults />} />
         </Routes>
       </BrowserRouter>
     </>

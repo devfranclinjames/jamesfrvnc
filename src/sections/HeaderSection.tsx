@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar";
 import Slider from "../components/Slider";
 import HeaderContents from "../components/HeaderContents";
 
@@ -12,7 +11,6 @@ export default function HeaderSection() {
   return (
     <>
       <header>
-        <Navbar />
         <div className=" bg-body-tertiary"></div>
         <div className="position-relative text-info-emphasis">
           <div className="position-relative text-center">
