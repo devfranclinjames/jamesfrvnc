@@ -48,105 +48,62 @@ export default function FooterSection() {
               </ul>
             </div>
             <div className="col-6 col-lg-2 offset-lg-1 mb-3">
-              <h5>Links</h5>
+              <h5>Over 5000+ theme Changed Websites</h5>
               <ul className="list-unstyled">
                 <li className="mb-2">
-                  <a href="/">Home</a>
+                  <a href="https://www.allsupchiropractic.com/" target="_blank">
+                    allsupchiropractic.com
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/docs/5.3/">Docs</a>
+                  <a href="advantagevision.net" target="_blank">
+                    advantagevision.net
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/docs/5.3/examples/">Examples</a>
+                  <a href="skyechiropractic.net" target="_blank">
+                    skyechiropractic.net
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="https://icons.getbootstrap.com/">Icons</a>
+                  <a href="familyvisioncarelagrange.com" target="_blank">
+                    familyvisioncarelagrange.com
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="https://themes.getbootstrap.com/">Themes</a>
+                  <a href="springmeadowvetclinic.com" target="_blank">
+                    springmeadowvetclinic.com
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="https://blog.getbootstrap.com/">Blog</a>
+                  <a href="https://wardywellnesschiro.com/" target="_blank">
+                    wardywellnesschiro.com
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="https://cottonbureau.com/people/bootstrap"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    Swag Store
+                  <a href="styleyesiowa.com" target="_blank">
+                    styleyesiowa.com
                   </a>
                 </li>
               </ul>
             </div>
             <div className="col-6 col-lg-2 mb-3">
-              <h5>Guides</h5>
+              <h5>Side Projects</h5>
               <ul className="list-unstyled">
                 <li className="mb-2">
-                  <a href="/docs/5.3/getting-started/">Getting started</a>
+                  <a href="TrudeLizares.com">TrudeLizares.com</a>
                 </li>
                 <li className="mb-2">
-                  <a href="/docs/5.3/examples/starter-template/">
-                    Starter template
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a href="/docs/5.3/getting-started/webpack/">Webpack</a>
-                </li>
-                <li className="mb-2">
-                  <a href="/docs/5.3/getting-started/parcel/">Parcel</a>
-                </li>
-                <li className="mb-2">
-                  <a href="/docs/5.3/getting-started/vite/">Vite</a>
+                  <a href="cebuvic.jp">cebuvic.jp</a>
                 </li>
               </ul>
             </div>
             <div className="col-6 col-lg-2 mb-3">
-              <h5>Projects</h5>
+              <h5>ResultsCX Projects</h5>
               <ul className="list-unstyled">
                 <li className="mb-2">
-                  <a
-                    href="https://github.com/twbs/bootstrap"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    Bootstrap 5
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a
-                    href="https://github.com/twbs/bootstrap/tree/v4-dev"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    Bootstrap 4
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a
-                    href="https://github.com/twbs/icons"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    Icons
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a
-                    href="https://github.com/twbs/rfs"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    RFS
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a
-                    href="https://github.com/twbs/examples/"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    Examples repo
+                  <a href="https://vimeo.com/user219916965" target="_blank">
+                    Vimeo
                   </a>
                 </li>
               </ul>
@@ -204,8 +161,21 @@ export default function FooterSection() {
             <div className="container">
               <h6 className="display-6">Contact</h6>
               <p>
-                Feel free to reach out to me via email at [your email address]
-                or connect with me on [LinkedIn, GitHub, etc.].
+                Feel free to reach out to me via email at [
+                <a href="mailto:devfranclinjames@gmail.com">
+                  devfranclinjames@gmail.com
+                </a>
+                ] or connect with me on [
+                <a
+                  href="https://www.linkedin.com/in/franclinjameslim/"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+                ] , [
+                <a href="https://www.instagram.com/francvisuals/">Instagram</a>]
+                , [<a href="https://www.facebook.com/francvisuals/">Facebook</a>
+                ].
               </p>
             </div>
           </div>
