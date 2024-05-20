@@ -39,19 +39,19 @@ export default function Slider() {
             <img src={Pexbg1} className="d-block w-100 opaek" alt="..." />
 
             <div className="carousel-caption d-none d-md-block">
-              <h5 className="text-body">Sample website project</h5>
+              {/* <h5 className="text-body">Sample website project</h5>
               <p className="text-body">
                 Some representative placeholder content for the first slide.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="carousel-item">
             <img src={Pexbg2} className="d-block w-100 opaek" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5 className="text-body">Sample website project</h5>
+              {/* <h5 className="text-body">Sample website project</h5>
               <p className="text-body">
                 Some representative placeholder content for the second slide.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="carousel-item">
@@ -61,10 +61,10 @@ export default function Slider() {
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
-              <h5 className="text-body">Sample website project</h5>
+              {/* <h5 className="text-body">Sample website project</h5>
               <p className="text-body">
                 Some representative placeholder content for the third slide.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

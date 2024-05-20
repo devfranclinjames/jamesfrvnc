@@ -17,13 +17,9 @@ export default function FooterSection() {
               />
               <ul className="list-unstyled small">
                 <li className="mb-2">
-                  Designed and built with all the love in the world by the{" "}
-                  <a href="/docs/5.3/about/team/">Bootstrap team</a> with the
-                  help of{" "}
-                  <a href="https://github.com/twbs/bootstrap/graphs/contributors">
-                    our contributors
-                  </a>
-                  .
+                  Portoflio Designed and built with
+                  <br />
+                  <i>Vite, Typescript, and Reactjs.</i>
                 </li>
                 <li className="mb-2">
                   Code licensed{" "}
@@ -85,6 +81,7 @@ export default function FooterSection() {
                     styleyesiowa.com
                   </a>
                 </li>
+                <li>and more.. via OctoberCMS</li>
               </ul>
             </div>
             <div className="col-6 col-lg-2 mb-3">
