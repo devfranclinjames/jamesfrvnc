@@ -24,10 +24,14 @@ export default function HeaderContents({ heading, phone, email }: HeaderProps) {
             <div className="text-uppercase">{heading}</div>
           </div>
           <div className="display-1">
-            <h1 className="text-uppercase">{phone}</h1>
+            <h1 className="text-uppercase">
+              <a href="tel:(+63)9983832238">{phone}</a>
+            </h1>
           </div>
           <div className="display-3">
-            <h3 className="text-lowercase">{email}</h3>
+            <h3 className="text-lowercase">
+              <a href="mailto:devfranclinjames@gmail.com">{email}</a>
+            </h3>
           </div>
         </div>
       </div>

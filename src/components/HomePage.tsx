@@ -2,10 +2,32 @@ const HomePage = () => {
   return (
     <div className="container py-5">
       <header className="py-5">
-        <h1 className="display-5">
-          Welcome to devFranc's Full Stack Web Development Services
-        </h1>
+        <h1 className="display-5">Welcome to Portfolio</h1>
         <h3>Transforming your digital vision into reality!</h3>
+        <br />
+        <p>
+          <b>Hi, A little info about me:</b>
+        </p>
+        <p>
+          My name is Franclin James Lim. I hold a{" "}
+          <u>
+            Bachelor's degree in Information Technology from Colegio San
+            Agustin-Bacolod
+          </u>
+          , where I developed a robust understanding of design principles,
+          fundamentals, and some of the broad spectrum of the world of
+          Information technology.
+        </p>
+
+        <p>
+          <b>Work Experience:</b>
+          <br />
+          During my tenure at EnfraUSA as a Web Graphics designer (Front-End), I
+          was responsible for managing multiple websites and creating engaging
+          visual content for both print and digital media including branding
+          materials, managing secure forms, marketing campaigns, and social
+          media graphics.
+        </p>
       </header>
       <section>
         <h2>Services Offered</h2>
@@ -30,7 +52,12 @@ const HomePage = () => {
       </section>
       <footer>
         <p>Ready to elevate your online presence?</p>
-        <button>Contact Me</button>
+        <a
+          href="https://www.onlinejobs.ph/jobseekers/info/2992796"
+          target="_blank"
+        >
+          <button className="btn btn-primary">Hire Me @ Onlinejobs.ph</button>
+        </a>
       </footer>
     </div>
   );

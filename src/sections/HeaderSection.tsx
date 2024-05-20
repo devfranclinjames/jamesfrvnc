@@ -3,7 +3,7 @@ import HeaderContents from "../components/HeaderContents";
 
 const webObj = {
   heading: "Full-stack Web Development",
-  phone: "(+63) 910 202 5612",
+  phone: "(+63) 998 383 2238",
   email: "devfranclinjames@gmail.com",
 };
 
