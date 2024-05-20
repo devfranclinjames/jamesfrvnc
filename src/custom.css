@@ -1,6 +1,6 @@
-.opaek{
+/* .opaek{
     filter:brightness(0.5);
-}
+} */
 .height-400{
     height:400px;
 }
@@ -12,16 +12,21 @@
     filter: drop-shadow(2px 4px 6px black);
 }
 
+.carousel-control-prev{
+    background: linear-gradient(90deg, black, transparent);
+}
+.carousel-control-next{
+    background: linear-gradient(270deg, black, transparent);
+}
 
 
 
 
 
 
-
-
-
-
+.carousel-item {
+    transition: transform .7s ease-in-out;
+  }
 
 
 

@@ -1,7 +1,13 @@
+import VideosResults from "./VideosResults";
+
 const HomePage = () => {
   return (
     <div className="container py-5">
       <header className="py-5">
+        <h1>Video Samples from ResultsCX</h1>
+        <VideosResults />
+        <br />
+
         <h1 className="display-5">Welcome to Portfolio</h1>
         <h3>Transforming your digital vision into reality!</h3>
         <br />
