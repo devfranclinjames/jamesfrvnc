@@ -1,18 +1,15 @@
+import Slider from "./Slider";
 import VideosResults from "./VideosResults";
 
 const HomePage = () => {
   return (
     <div className="container py-5">
       <header className="py-5">
-        <h1>Video Samples from ResultsCX</h1>
-        <VideosResults />
-        <br />
-
-        <h1 className="display-5">Welcome to Portfolio</h1>
+        <h1 className="display-5">Hi, Welcome to Portfolio</h1>
         <h3>Transforming your digital vision into reality!</h3>
         <br />
         <p>
-          <b>Hi, A little info about me:</b>
+          <b>A little info about me:</b>
         </p>
         <p>
           My name is Franclin James Lim. I hold a{" "}
@@ -56,6 +53,7 @@ const HomePage = () => {
           <li>Client-Centric Approach</li>
         </ul>
       </section>
+
       <footer>
         <p>Ready to elevate your online presence?</p>
         <a
@@ -64,6 +62,21 @@ const HomePage = () => {
         >
           <button className="btn btn-primary">Hire Me @ Onlinejobs.ph</button>
         </a>
+        <br />
+        <br />
+        <br />
+        <div className="container">
+          <Slider></Slider>
+          <br />
+          <br />
+        </div>
+        <h1>Videography/Video Editing @ ResultsCX</h1>
+        <br />
+        <br />
+        <br />
+        <VideosResults />
+        <br />
+        <br />
       </footer>
     </div>
   );

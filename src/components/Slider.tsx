@@ -5,6 +5,11 @@ import Pexbg3 from "../assets/imgs/pexbg3.jpg";
 export default function Slider() {
   return (
     <>
+      <h1>Example Graphics Designs</h1>
+      <p>Photography and Photoshop Editing Designs</p>
+      <br />
+      <br />
+      <br />
       <div
         id="carouselExampleCaptions"
         className="carousel slide"

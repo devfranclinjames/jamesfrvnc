@@ -1,4 +1,3 @@
-import Slider from "../components/Slider";
 import HeaderContents from "../components/HeaderContents";
 
 const webObj = {
@@ -20,9 +19,6 @@ export default function HeaderSection() {
               email={webObj.email}
             />
           </div>
-        </div>
-        <div className="container">
-          <Slider></Slider>
         </div>
       </header>
     </>
