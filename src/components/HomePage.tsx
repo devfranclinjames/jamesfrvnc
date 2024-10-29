@@ -6,20 +6,15 @@ const HomePage = () => {
     <div className="container py-5">
       <header className="py-5">
         <h1 className="display-5">Hi, Welcome to Portfolio</h1>
-        <h3>Transforming your digital vision into reality!</h3>
         <br />
         <p>
           <b>A little info about me:</b>
         </p>
         <p>
-          My name is Franclin James Lim. I hold a{" "}
-          <u>
-            Bachelor's degree in Information Technology from Colegio San
-            Agustin-Bacolod
-          </u>
-          , where I developed a robust understanding of design principles,
-          fundamentals, and some of the broad spectrum of the world of
-          Information technology.
+          My name is Franclin James Lim. I hold a Bachelor's degree in
+          Information Technology from Colegio San Agustin-Bacolod , where I
+          developed a robust understanding of design principles, fundamentals,
+          and some of the broad spectrum of the world of Information technology.
         </p>
 
         <p>

@@ -52,32 +52,38 @@ export default function FooterSection() {
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="advantagevision.net" target="_blank">
+                  <a href="https://www.advantagevision.net" target="_blank">
                     advantagevision.net
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="skyechiropractic.net" target="_blank">
+                  <a href="https://www.skyechiropractic.net" target="_blank">
                     skyechiropractic.net
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="familyvisioncarelagrange.com" target="_blank">
+                  <a
+                    href="https://www.familyvisioncarelagrange.com"
+                    target="_blank"
+                  >
                     familyvisioncarelagrange.com
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="springmeadowvetclinic.com" target="_blank">
+                  <a
+                    href="https://www.springmeadowvetclinic.com"
+                    target="_blank"
+                  >
                     springmeadowvetclinic.com
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="https://wardywellnesschiro.com/" target="_blank">
+                  <a href="https://www.wardywellnesschiro.com/" target="_blank">
                     wardywellnesschiro.com
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="styleyesiowa.com" target="_blank">
+                  <a href="https://www.styleyesiowa.com" target="_blank">
                     styleyesiowa.com
                   </a>
                 </li>
@@ -88,10 +94,10 @@ export default function FooterSection() {
               <h5>Side Projects</h5>
               <ul className="list-unstyled">
                 <li className="mb-2">
-                  <a href="TrudeLizares.com">TrudeLizares.com</a>
+                  <a href="https://www.TrudeLizares.com">TrudeLizares.com</a>
                 </li>
                 <li className="mb-2">
-                  <a href="cebuvic.jp">cebuvic.jp</a>
+                  <a href="https://www.cebuvic.jp">cebuvic.jp</a>
                 </li>
               </ul>
             </div>
