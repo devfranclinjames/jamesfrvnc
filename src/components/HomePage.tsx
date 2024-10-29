@@ -1,5 +1,6 @@
 import Slider from "./Slider";
 import VideosResults from "./VideosResults";
+import MyCV from "../assets/resume_2024_lim.pdf";
 
 const HomePage = () => {
   return (
@@ -7,6 +8,7 @@ const HomePage = () => {
       <header className="py-5">
         <h1 className="display-5">Hi, Welcome to Portfolio</h1>
         <br />
+        <a href={MyCV}>PDF Resume/CV</a>
         <p>
           <b>A little info about me:</b>
         </p>
