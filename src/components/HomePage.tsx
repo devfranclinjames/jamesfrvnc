@@ -23,17 +23,17 @@ const HomePage = () => {
         <em>Here are my current sample Projects as of the moment.</em>
         <p>
           <li>
-            <a href="maysbanksdds.com" target="_blank">
+            <a href="https://www.maysbanksdds.com/" target="_blank">
               maysbanksdds.com
             </a>
           </li>
           <li>
-            <a href="mercerdentalsociety.com" target="_blank">
+            <a href="https://www.mercerdentalsociety.com/" target="_blank">
               mercerdentalsociety.com
             </a>
           </li>
           <li>
-            <a href="drmariemoeckel.com" target="_blank">
+            <a href="https://www.drmariemoeckel.com/" target="_blank">
               drmariemoeckel.com
             </a>
           </li>
