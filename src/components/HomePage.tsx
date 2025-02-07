@@ -1,6 +1,6 @@
 import Slider from "./Slider";
 import VideosResults from "./VideosResults";
-import MyCV from "../assets/resume_2024_lim.pdf";
+import MyCV from "../assets/Resume_2025_lim.pdf";
 
 const HomePage = () => {
   return (
