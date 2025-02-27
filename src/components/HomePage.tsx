@@ -1,7 +1,6 @@
 import Slider from "./Slider";
 import VideosResults from "./VideosResults";
-import MyCV from "../assets/Resume_2025_lim.pdf";
-
+import MyCV from "../assets/ResumeFranc.pdf";
 const HomePage = () => {
   return (
     <div className="container py-5">
@@ -9,7 +8,9 @@ const HomePage = () => {
         <h1 className="display-5">Hi, Welcome to Portfolio</h1>
         <br />
         <a href={MyCV} target="_blank">
-          PDF Resume/CV
+          <button className="btn btn-primary">PDF Resume/CV</button>
+          <br />
+          <br />
         </a>
         <p>
           <b>A little info about me:</b>
@@ -38,6 +39,9 @@ const HomePage = () => {
             </a>
           </li>
           <li>and many more..</li>
+          <li>
+            <a href="">test</a>
+          </li>
         </p>
         <p>
           <b>Work Experience:</b>
