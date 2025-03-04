@@ -10,7 +10,7 @@ function App() {
       <Routes>
         {/* Main page route */}
         <Route
-          path="/"
+          path="/jamesfrvnc"
           element={
             <>
               <HeaderSection />
@@ -21,7 +21,7 @@ function App() {
         />
 
         {/* Test page route */}
-        <Route path="/test" element={<Test />} />
+        <Route path="/pages/test" element={<Test />} />
       </Routes>
     </Router>
   );

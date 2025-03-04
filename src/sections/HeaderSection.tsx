@@ -11,8 +11,8 @@ export default function HeaderSection() {
   return (
     <>
       <header>
-        <Link to="/">Home</Link>
-        <Link to="/test">Test Page</Link>
+        <Link to="/jamesfrvnc">Home</Link>
+        <Link to="/pages/test">Test Page</Link>
         <div className=" bg-body-tertiary"></div>
         <div className="position-relative text-info-emphasis">
           <div className="position-relative text-center">
