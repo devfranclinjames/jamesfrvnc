@@ -1,36 +1,46 @@
-import MyLogo from "./MyLogo";
-import MysrcLogo from "../assets/imgs/dfhtml.png";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import App from "../App";
+// import MyLogo from "./MyLogo";
+// import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+// import App from "../App";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
-const imgObj = {
-  height: 50,
-  width: "auto",
-  alt: MysrcLogo,
-  klass: "nav-logo",
-};
+// const imgObj = {
+//   height: 50,
+//   width: "auto",
+//   alt: MysrcLogo,
+//   klass: "nav-logo",
+// };
 
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Toggle menu visibility
+  const clickFunction = () => {
+    setIsMenuOpen(!isMenuOpen);
+    console.log("Menu toggled:", isMenuOpen);
+  };
+
+  const HandleNavOnclick = (
+    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>
+  ) => {
+    event.preventDefault();
+    clickFunction();
+  };
   return (
     <>
-      <BrowserRouter>
-        <nav className="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
-          <div className="container-fluid">
-            <Link to="/jamesfrvnc">
-              <MyLogo
-                klass={imgObj.klass}
-                imgsrc={MysrcLogo}
-                taas={imgObj.height}
-                lapad={imgObj.width}
-                unsani={imgObj.alt}
-              />
-            </Link>
-          </div>
-        </nav>
-        <Routes>
-          <Route path="/" element={<App />} />
-        </Routes>
-      </BrowserRouter>
+      <div className={`topnav ${isMenuOpen ? "responsive" : ""}`} id="myTopnav">
+        <Link to="/jamesfrvnc" className="active">
+          Home
+        </Link>
+        <Link to="/pages/test">Roofing Workflow</Link>
+        <a
+          href="javascript:void(0);"
+          className="icon"
+          onClick={HandleNavOnclick}
+        >
+          <i className="fa fa-bars"></i>
+        </a>
+      </div>
     </>
   );
 }
