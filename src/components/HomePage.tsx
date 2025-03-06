@@ -1,12 +1,15 @@
 import Slider from "./Slider";
 import VideosResults from "./VideosResults";
+import myImg from "../assets/imgs/cropped-a35.jpg";
 import MyCV from "../assets/ResumeFranc.pdf";
+
 const HomePage = () => {
   return (
     <div className="container py-5">
       <header className="py-5">
         <h1 className="display-5">Hi, Welcome to Portfolio</h1>
         <br />
+        <img src={myImg} className="fRight" />
         <a href={MyCV} target="_blank">
           <button className="btn btn-primary">PDF Resume/CV</button>
           <br />
@@ -24,33 +27,31 @@ const HomePage = () => {
         <em>Here are my current sample Projects as of the moment.</em>
         <p>
           <li>
-            <a href="https://www.maysbanksdds.com/" target="_blank">
-              maysbanksdds.com
+            <a href="https://www.timadamsdds.com/" target="_blank">
+              timadamsdds.com
             </a>
           </li>
           <li>
-            <a href="https://www.mercerdentalsociety.com/" target="_blank">
-              mercerdentalsociety.com
+            <a href="https://www.rentonsmiles.com/" target="_blank">
+              rentonsmiles.com
             </a>
           </li>
           <li>
-            <a href="https://www.drmariemoeckel.com/" target="_blank">
-              drmariemoeckel.com
+            <a href="https://trudelizares.com/" target="_blank">
+              trudelizares.com
             </a>
           </li>
           <li>and many more..</li>
-          <li>
-            <a href="">test</a>
-          </li>
         </p>
         <p>
           <b>Work Experience:</b>
           <br />
-          During my 6+ years of tenure at EnfraUSA as a Web Graphics designer
-          (Front-End), I was responsible for managing thousands of websites
-          under InternetBrands using SalesforceCRM, creating engaging visual
-          content for both print and digital media including branding materials,
-          managing secure forms, marketing campaigns, and social media graphics.
+          During my 8+ years of tenure at EnfraUSA as a FED/Web Graphics
+          designer (Front-End), I was responsible for managing thousands of
+          websites under InternetBrands using SalesforceCRM, creating engaging
+          visual content for both print and digital media including branding
+          materials, managing secure forms, marketing campaigns, and social
+          media graphics.
           <br />
           <br />I was responsible for Onboarding and Professional Services under
           Imatrix, Vetmatrix, and Chiromatrix brand, FED designer and Migration

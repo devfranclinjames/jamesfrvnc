@@ -1,47 +1,45 @@
-// import MyLogo from "./MyLogo";
-// import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-// import App from "../App";
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-
-// const imgObj = {
-//   height: 50,
-//   width: "auto",
-//   alt: MysrcLogo,
-//   klass: "nav-logo",
-// };
+import { useState } from "react";
+import { NavLink } from "react-router-dom"; // Changed from Link to NavLink
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Toggle menu visibility
-  const clickFunction = () => {
+  const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    console.log("Menu toggled:", isMenuOpen);
   };
 
-  const HandleNavOnclick = (
-    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>
-  ) => {
-    event.preventDefault();
-    clickFunction();
+  const closeMenu = () => {
+    setIsMenuOpen(false);
   };
+
   return (
-    <>
-      <div className={`topnav ${isMenuOpen ? "responsive" : ""}`} id="myTopnav">
-        <Link to="/jamesfrvnc" className="active">
-          Home
-        </Link>
-        <Link to="/pages/test">Roofing Workflow</Link>
-        <a
-          href="javascript:void(0);"
-          className="icon"
-          onClick={HandleNavOnclick}
-        >
-          <i className="fa fa-bars"></i>
-        </a>
-      </div>
-    </>
+    <div className={`topnav ${isMenuOpen ? "responsive" : ""}`} id="myTopnav">
+      <NavLink
+        to="/jamesfrvnc"
+        className={({ isActive }) => (isActive ? "active" : "")}
+        end // Ensures active state only for exact match
+        onClick={closeMenu}
+      >
+        Home
+      </NavLink>
+      <NavLink
+        to="/pages/test"
+        className={({ isActive }) => (isActive ? "active" : "")}
+        onClick={closeMenu}
+      >
+        Simpliscale Roofing Automation
+      </NavLink>
+      <a
+        href="#"
+        className="icon"
+        onClick={(e) => {
+          e.preventDefault();
+          toggleMenu();
+        }}
+      >
+        <i className="fa fa-bars"></i>
+      </a>
+    </div>
   );
 }
 

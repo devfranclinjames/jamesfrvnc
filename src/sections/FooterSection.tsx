@@ -99,6 +99,9 @@ export default function FooterSection() {
                 <li className="mb-2">
                   <a href="https://www.cebuvic.jp">cebuvic.jp</a>
                 </li>
+                <li className="mb-2">
+                  <a href="https://simplescale.io/">simplescale.io</a>
+                </li>
               </ul>
             </div>
             <div className="col-6 col-lg-2 mb-3">

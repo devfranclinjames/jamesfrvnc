@@ -156,3 +156,10 @@
       text-align: left;
     }
   }
+
+
+.fRight{
+  float:right!important;
+  max-width: 450px;
+  padding: 25px;
+}

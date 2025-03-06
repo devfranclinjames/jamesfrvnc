@@ -1,6 +1,8 @@
+import Navbar from "../components/Navbar";
 export default function Test() {
   return (
     <>
+      <Navbar></Navbar>
       <iframe
         width="100%"
         height="1080px"
