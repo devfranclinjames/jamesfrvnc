@@ -1,7 +1,7 @@
 import Slider from "./Slider";
 import VideosResults from "./VideosResults";
 import myImg from "../assets/imgs/cropped-a35.jpg";
-import MyCV from "../assets/ResumeFranc.pdf";
+import MyCV from "../assets/Resume_2025_lim.pdf";
 
 const HomePage = () => {
   return (
