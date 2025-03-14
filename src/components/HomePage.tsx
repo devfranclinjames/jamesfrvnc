@@ -16,15 +16,17 @@ const HomePage = () => {
           <button className="btn btn-primary">PDF Resume/CV</button>
         </a>
         <br />
+        <br />
         <a href={Hipaa} target="_blank">
           <button className="btn btn-primary">
             InternetBrands Certificate HIPAA
           </button>
         </a>
         <br />
+        <br />
         <a href={StrongestLink} target="_blank">
           <button className="btn btn-primary">
-            InternetBrands Certificate HIPAA
+            Strongest Link Certificate
           </button>
         </a>
         <br />
