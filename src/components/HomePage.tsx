@@ -2,6 +2,8 @@ import Slider from "./Slider";
 import VideosResults from "./VideosResults";
 import myImg from "../assets/imgs/cropped-a35.jpg";
 import MyCV from "../assets/Resume_2025_lim.pdf";
+import Hipaa from "../assets/hipaa.pdf";
+import StrongestLink from "../assets/strongestlink.pdf";
 
 const HomePage = () => {
   return (
@@ -12,9 +14,21 @@ const HomePage = () => {
         <img src={myImg} className="fRight" />
         <a href={MyCV} target="_blank">
           <button className="btn btn-primary">PDF Resume/CV</button>
-          <br />
-          <br />
         </a>
+        <br />
+        <a href={Hipaa} target="_blank">
+          <button className="btn btn-primary">
+            InternetBrands Certificate HIPAA
+          </button>
+        </a>
+        <br />
+        <a href={StrongestLink} target="_blank">
+          <button className="btn btn-primary">
+            InternetBrands Certificate HIPAA
+          </button>
+        </a>
+        <br />
+        <br />
         <p>
           <b>A little info about me:</b>
         </p>
