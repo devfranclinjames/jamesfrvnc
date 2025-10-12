@@ -27,7 +27,7 @@ function Navbar() {
         className={({ isActive }) => (isActive ? "active" : "")}
         onClick={closeMenu}
       >
-        Simpliscale Roofing Automation
+        GHL Funnel Framework
       </NavLink>
       <a
         href="#"
