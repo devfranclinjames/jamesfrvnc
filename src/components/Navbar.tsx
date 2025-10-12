@@ -27,7 +27,7 @@ function Navbar() {
         className={({ isActive }) => (isActive ? "active" : "")}
         onClick={closeMenu}
       >
-        GHL Funnel Framework
+        GHL Funnel Frameworks
       </NavLink>
       <a
         href="#"
