@@ -16,7 +16,7 @@ const HomePage = () => {
         <a href={MyCV} target="_blank">
           <button className="btn btn-primary">PDF Resume/CV</button>
         </a>
-        <a href={vid} target="_blank">
+        <a href={vid} target="_blank" className="dnone">
           <button className="btn btn-primary">video</button>
         </a>
         <br />

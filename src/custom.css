@@ -163,3 +163,6 @@
   max-width: 450px;
   padding: 25px;
 }
+.dnone{
+  display: none;
+}
