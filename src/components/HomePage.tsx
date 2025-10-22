@@ -2,6 +2,7 @@ import Slider from "./Slider";
 import VideosResults from "./VideosResults";
 import myImg from "../assets/imgs/cropped-a35.jpg";
 import MyCV from "../assets/Resume_2025_lim3.pdf";
+import vid from "../assets/imgs/portfolio.mp4";
 import Hipaa from "../assets/hipaa.pdf";
 import StrongestLink from "../assets/strongestlink.pdf";
 
@@ -14,6 +15,9 @@ const HomePage = () => {
         <img src={myImg} className="fRight" />
         <a href={MyCV} target="_blank">
           <button className="btn btn-primary">PDF Resume/CV</button>
+        </a>
+        <a href={vid} target="_blank">
+          <button className="btn btn-primary">video</button>
         </a>
         <br />
         <br />
