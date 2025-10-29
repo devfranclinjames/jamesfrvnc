@@ -14,7 +14,7 @@ export default function HeaderContents({ heading, phone, email }: HeaderProps) {
           <MyLogo
             klass={"sect-logo"}
             imgsrc={MysrcLogosrc}
-            taas={40}
+            taas={150}
             lapad={"auto"}
             unsani={"HeroLogo"}
           />
