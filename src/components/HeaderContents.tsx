@@ -1,4 +1,4 @@
-import MysrcLogosrc from "../assets/imgs/teallogodevfranc.png";
+import MysrcLogosrc from "../assets/imgs/logofrvnc.png";
 import MyLogo from "../components/MyLogo";
 interface HeaderProps {
   heading: string;
