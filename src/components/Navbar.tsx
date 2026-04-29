@@ -22,13 +22,6 @@ function Navbar() {
       >
         Home
       </NavLink>
-      <NavLink
-        to="/pages/test"
-        className={({ isActive }) => (isActive ? "active" : "")}
-        onClick={closeMenu}
-      >
-        Simpliscale Roofing Automation
-      </NavLink>
       <a
         href="#"
         className="icon"
