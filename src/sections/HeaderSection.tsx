@@ -1,8 +1,8 @@
 import HeaderContents from "../components/HeaderContents";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 
 const webObj = {
-  heading: "Full-stack Web Development",
+  heading: "",
   phone: "(+63) 998 383 2238",
   email: "devfranclinjames@gmail.com",
 };
@@ -10,7 +10,7 @@ const webObj = {
 const HeaderSection: React.FC = () => {
   return (
     <header>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="bg-body-tertiary"></div>
       <div className="position-relative text-info-emphasis">
         <div className="position-relative text-center">

@@ -16,6 +16,7 @@ const HomePage = () => {
           <button className="btn btn-primary">PDF Resume/CV</button>
         </a>
         <br />
+        <br />
         <a href={Hipaa} target="_blank">
           <button className="btn btn-primary">
             InternetBrands Certificate HIPAA
