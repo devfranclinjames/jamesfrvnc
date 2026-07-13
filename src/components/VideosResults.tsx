@@ -31,38 +31,9 @@ function VideosResults() {
             aria-label="Slide 3"
             className="bg-info-subtle"
           ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions2"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-            className="bg-info-subtle"
-          ></button>
         </div>
         <div className="carousel-inner">
-          {/* New Video - First Slide */}
           <div className="carousel-item active">
-            <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
-              <iframe
-                src="https://player.vimeo.com/video/1209256136?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  width: "100%",
-                  height: "100%",
-                }}
-                title="GHL For Portfolio Edit"
-              ></iframe>
-            </div>
-            <div className="carousel-caption d-none d-md-block"></div>
-          </div>
-
-          {/* Existing Videos */}
-          <div className="carousel-item">
             <div>
               <iframe
                 src="https://player.vimeo.com/video/948224968?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
@@ -72,7 +43,13 @@ function VideosResults() {
                 height={`740px`}
               ></iframe>
             </div>
-            <div className="carousel-caption d-none d-md-block"></div>
+
+            <div className="carousel-caption d-none d-md-block">
+              {/* <h5 className="text-body">Sample website project</h5>
+              <p className="text-body">
+                Some representative placeholder content for the first slide.
+              </p> */}
+            </div>
           </div>
           <div className="carousel-item">
             <div>
@@ -84,7 +61,12 @@ function VideosResults() {
                 height={`740px`}
               ></iframe>
             </div>
-            <div className="carousel-caption d-none d-md-block"></div>
+            <div className="carousel-caption d-none d-md-block">
+              {/* <h5 className="text-body">Sample website project</h5>
+              <p className="text-body">
+                Some representative placeholder content for the second slide.
+              </p> */}
+            </div>
           </div>
           <div className="carousel-item">
             <div>
@@ -96,7 +78,12 @@ function VideosResults() {
                 height={`740px`}
               ></iframe>
             </div>
-            <div className="carousel-caption d-none d-md-block"></div>
+            <div className="carousel-caption d-none d-md-block">
+              {/* <h5 className="text-body">Sample website project</h5>
+              <p className="text-body">
+                Some representative placeholder content for the third slide.
+              </p> */}
+            </div>
           </div>
         </div>
         <button
